@@ -1,13 +1,14 @@
 package com.pluralsight.candycoded;
 
+import android.app.Activity;
 import android.net.Uri;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.widget.ImageView;
 
 import com.squareup.picasso.Picasso;
 
-public class InfoActivity extends AppCompatActivity {
+public class InfoActivity extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -16,7 +17,7 @@ public class InfoActivity extends AppCompatActivity {
 
         Uri uri = Uri.parse("android.resource://com.codeschool.candycoded/" + R.drawable.store_front);
         ImageView candyStoreImageView = (ImageView)findViewById(R.id.image_view_candy_store);
-        Picasso.with(this).
+        Picasso.get().
                 load(uri).
                 into(candyStoreImageView);
 

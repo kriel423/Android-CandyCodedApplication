@@ -1,10 +1,11 @@
 package com.pluralsight.candycoded;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.widget.ImageView;
@@ -15,7 +16,7 @@ import com.pluralsight.candycoded.DB.CandyContract.CandyEntry;
 import com.pluralsight.candycoded.DB.CandyDbHelper;
 import com.squareup.picasso.Picasso;
 
-public class DetailActivity extends AppCompatActivity {
+public class DetailActivity extends Activity {
 
     public static final String SHARE_DESCRIPTION = "Look at this delicious candy from Candy Coded - ";
     public static final String HASHTAG_CANDYCODED = " #candycoded";
@@ -57,7 +58,7 @@ public class DetailActivity extends AppCompatActivity {
 
             ImageView imageView = (ImageView) this.findViewById(
                     R.id.image_view_candy);
-            Picasso.with(this).load(mCandyImageUrl).into(imageView);
+            Picasso.get().load(mCandyImageUrl).into(imageView);
         }
     }
 
