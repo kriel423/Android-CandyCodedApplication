@@ -16,7 +16,7 @@ import com.pluralsight.candycoded.DB.CandyContract.CandyEntry;
 import com.pluralsight.candycoded.DB.CandyDbHelper;
 import com.squareup.picasso.Picasso;
 
-public class DetailActivity extends Activity {
+public class DetailActivity extends AppCompatActivity {
 
     public static final String SHARE_DESCRIPTION = "Look at this delicious candy from Candy Coded - ";
     public static final String HASHTAG_CANDYCODED = " #candycoded";

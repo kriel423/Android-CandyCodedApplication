@@ -8,7 +8,7 @@ import android.widget.ImageView;
 
 import com.squareup.picasso.Picasso;
 
-public class InfoActivity extends Activity {
+public class InfoActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
