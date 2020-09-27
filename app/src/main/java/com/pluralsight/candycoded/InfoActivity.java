@@ -1,19 +1,31 @@
 package com.pluralsight.candycoded;
 
 import android.app.Activity;
+import android.content.Context;
+import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import androidx.appcompat.app.AppCompatActivity;
+
+import android.util.Log;
 import android.widget.ImageView;
+import android.widget.TextView;
 
 import com.squareup.picasso.Picasso;
 
 public class InfoActivity extends AppCompatActivity {
 
+    Context context;
+    TextView maps, phone;
+    private Uri mMapLocation;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_info);
+
+        maps = findViewById(R.id.text_view_address);
+        mMapLocation = Uri.parse(maps.getText().toString());
 
         Uri uri = Uri.parse("android.resource://com.codeschool.candycoded/" + R.drawable.store_front);
         ImageView candyStoreImageView = (ImageView)findViewById(R.id.image_view_candy_store);
@@ -22,13 +34,39 @@ public class InfoActivity extends AppCompatActivity {
                 into(candyStoreImageView);
 
 
+
     }
+
+
 
     // ***
     // TODO - Task 2 - Launch the Google Maps Activity
     // ***
 
+    public void createMapIntent(){
+        Intent mapIntent = new Intent(Intent.ACTION_VIEW);
+        mapIntent.setPackage("com.google.android.apps.maps");
+        if (mapIntent.resolveActivity(context.getPackageManager()) != null) {
+            context.startActivity(mapIntent);
+        } else {
+            //Show info
+            Log.i("", "could not access the map");
+        }
+
+    }
+//    {
+//        maps = findViewById(R.id.text_view_address);
+//        Intent intent = new Intent(InfoActivity.this, )
+//    }
+
     // ***
     // TODO - Task 3 - Launch the Phone Activity
     // ***
+
+//    public void createPhoneIntent(){
+//        phone = findViewById(R.id.text_view_phone);
+//        Intent callIntent = new Intent(Intent.ACTION_CALL);
+//        callIntent.setData(Uri.parse(phone.getText().toString()));
+//        startActivity(callIntent);
+//    };
 }
