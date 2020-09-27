@@ -10,11 +10,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0b7633b6-91c2-4d9c-80c2-5897a3f35d39" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/hs_err_pid16592.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/hs_err_pid21936.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/hs_err_pid4024.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/replay_pid16592.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/replay_pid21936.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/pluralsight/candycoded/DetailActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/pluralsight/candycoded/DetailActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/pluralsight/candycoded/InfoActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/pluralsight/candycoded/InfoActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/pluralsight/candycoded/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/pluralsight/candycoded/MainActivity.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +75,7 @@
     <option name="BUILD_VARIANTS_TAB" value="Flavors" />
     <option name="LAST_EDITED_BUILD_TYPE" value="release" />
   </component>
-  <component name="RunManager" selected="Android App.app">
+  <component name="RunManager" selected="Android JUnit._1_StartTheStoreInformationActivity">
     <configuration name="_1_StartTheStoreInformationActivity" type="AndroidJUnit" factoryName="Android JUnit" nameIsGenerated="true">
       <module name="app" />
       <useClassPathOnly />
@@ -208,8 +209,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Android JUnit.com in app" />
         <item itemvalue="Android JUnit.candycoded in app" />
+        <item itemvalue="Android JUnit.com in app" />
         <item itemvalue="Android JUnit._1_StartTheStoreInformationActivity.override_mainactivity_onoptionitemselected" />
       </list>
     </recent_temporary>
@@ -232,7 +233,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601139493456</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="All edits after import, nothing changed in the code">
+      <created>1601197286317</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1601197286318</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -280,10 +288,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="653" y="357" width="613" height="561" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040@0.0.1920.1040" timestamp="1601138944826" />
-    <state x="493" y="114" key="CommitChangelistDialog2" timestamp="1601139492247">
+    <state x="493" y="114" key="CommitChangelistDialog2" timestamp="1601197284758">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="493" y="114" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1601139492247" />
+    <state x="493" y="114" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1601197284758" />
     <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1601139234210">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
