@@ -9,8 +9,9 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0b7633b6-91c2-4d9c-80c2-5897a3f35d39" name="Default Changelist" comment="Test in StartTheStoreInformationActivity working">
+    <list default="true" id="0b7633b6-91c2-4d9c-80c2-5897a3f35d39" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/pluralsight/candycoded/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/pluralsight/candycoded/MainActivity.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -276,7 +277,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601198500124</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Test in StartTheStoreInformationActivity working">
+      <created>1602509706411</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1602509706411</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -325,9 +333,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="653" y="357" width="613" height="561" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040@0.0.1920.1040" timestamp="1601138944826" />
-    <state x="493" y="114" key="CommitChangelistDialog2" timestamp="1601226236228">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="411" y="49" key="CommitChangelistDialog2" timestamp="1602509699398">
+      <screen x="0" y="0" width="1600" height="860" />
     </state>
+    <state x="411" y="49" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1602509699398" />
     <state x="493" y="114" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1601226236228" />
     <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1601139234210">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -337,29 +346,34 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="246" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1601068470370" />
-    <state width="1877" height="440" key="GridCell.Tab.0.bottom" timestamp="1601226855970">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1557" height="128" key="GridCell.Tab.0.bottom" timestamp="1602512120568">
+      <screen x="0" y="0" width="1600" height="860" />
     </state>
+    <state width="1557" height="128" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1602512120568" />
     <state width="1877" height="440" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1601226855970" />
-    <state width="1877" height="440" key="GridCell.Tab.0.center" timestamp="1601226855970">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1557" height="128" key="GridCell.Tab.0.center" timestamp="1602512120567">
+      <screen x="0" y="0" width="1600" height="860" />
     </state>
+    <state width="1557" height="128" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1602512120567" />
     <state width="1877" height="440" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1601226855970" />
-    <state width="1877" height="440" key="GridCell.Tab.0.left" timestamp="1601226855970">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1557" height="128" key="GridCell.Tab.0.left" timestamp="1602512120566">
+      <screen x="0" y="0" width="1600" height="860" />
     </state>
+    <state width="1557" height="128" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1602512120566" />
     <state width="1877" height="440" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1601226855970" />
-    <state width="1877" height="440" key="GridCell.Tab.0.right" timestamp="1601226855970">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1557" height="128" key="GridCell.Tab.0.right" timestamp="1602512120567">
+      <screen x="0" y="0" width="1600" height="860" />
     </state>
+    <state width="1557" height="128" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1602512120567" />
     <state width="1877" height="440" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1601226855970" />
     <state x="461" y="162" key="SettingsEditor" timestamp="1601138542450">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1601138542450" />
-    <state x="1025" y="253" key="Vcs.Push.Dialog.v2" timestamp="1601217446494">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="784" y="209" key="Vcs.Push.Dialog.v2" timestamp="1602509728729">
+      <screen x="0" y="0" width="1600" height="860" />
     </state>
+    <state x="784" y="209" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1602509728729" />
     <state x="1025" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1601217446494" />
     <state x="749" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1601215457756">
       <screen x="0" y="0" width="1920" height="1040" />
