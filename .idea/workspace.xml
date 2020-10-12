@@ -57,7 +57,7 @@
     <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2019-10-31T14:03:56.773Z" />
     <property name="Git.Branch.Popup.ShowAllRemotes" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="C:/Future/Programming/NoteKeeper/EnhancingAndroidExperience/android-enhancing-application-experience/08-creating-settings-screens-and-accessing-sharedpreferences/exercise-files/after/NoteKeeper" />
     <property name="project.structure.last.edited" value="Suggestions" />
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.2533512" />
@@ -284,7 +284,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602509706411</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Test in StartTheStoreInformationActivity working">
+      <created>1602512179402</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1602512179403</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -333,18 +340,19 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="653" y="357" width="613" height="561" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040@0.0.1920.1040" timestamp="1601138944826" />
-    <state x="411" y="49" key="CommitChangelistDialog2" timestamp="1602509699398">
+    <state x="411" y="49" key="CommitChangelistDialog2" timestamp="1602512175053">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="411" y="49" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1602509699398" />
+    <state x="411" y="49" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1602512175053" />
     <state x="493" y="114" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1601226236228" />
     <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1601139234210">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1601139234210" />
-    <state x="740" y="246" key="FileChooserDialogImpl" timestamp="1601068470370">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="617" y="203" key="FileChooserDialogImpl" timestamp="1602512647894">
+      <screen x="0" y="0" width="1600" height="860" />
     </state>
+    <state x="617" y="203" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1602512647894" />
     <state x="740" y="246" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1601068470370" />
     <state width="1557" height="128" key="GridCell.Tab.0.bottom" timestamp="1602512120568">
       <screen x="0" y="0" width="1600" height="860" />
@@ -370,10 +378,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1601138542450" />
-    <state x="784" y="209" key="Vcs.Push.Dialog.v2" timestamp="1602509728729">
+    <state x="784" y="209" key="Vcs.Push.Dialog.v2" timestamp="1602512193268">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="784" y="209" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1602509728729" />
+    <state x="784" y="209" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1602512193268" />
     <state x="1025" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1601217446494" />
     <state x="749" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1601215457756">
       <screen x="0" y="0" width="1920" height="1040" />
