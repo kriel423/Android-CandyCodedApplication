@@ -9,9 +9,7 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0b7633b6-91c2-4d9c-80c2-5897a3f35d39" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/pluralsight/candycoded/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/pluralsight/candycoded/MainActivity.java" afterDir="false" />
-    </list>
+    <list default="true" id="0b7633b6-91c2-4d9c-80c2-5897a3f35d39" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -290,7 +288,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602512179403</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Test in StartTheStoreInformationActivity working">
+      <created>1602529965374</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1602529965374</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -339,11 +344,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="653" y="357" width="613" height="561" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040@0.0.1920.1040" timestamp="1601138944826" />
-    <state x="411" y="49" key="CommitChangelistDialog2" timestamp="1602512175053">
-      <screen x="0" y="0" width="1600" height="860" />
+    <state x="493" y="114" key="CommitChangelistDialog2" timestamp="1602530224460">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="411" y="49" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1602512175053" />
-    <state x="493" y="114" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1601226236228" />
+    <state x="493" y="114" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1602530224460" />
     <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1601139234210">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -377,11 +382,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1601138542450" />
-    <state x="784" y="209" key="Vcs.Push.Dialog.v2" timestamp="1602512193268">
-      <screen x="0" y="0" width="1600" height="860" />
+    <state x="1025" y="253" key="Vcs.Push.Dialog.v2" timestamp="1602530272170">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="784" y="209" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1602512193268" />
-    <state x="1025" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1601217446494" />
+    <state x="1025" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1602530272170" />
     <state x="749" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1601215457756">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
