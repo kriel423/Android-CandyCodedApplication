@@ -10,7 +10,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0b7633b6-91c2-4d9c-80c2-5897a3f35d39" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/pluralsight/candycoded/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/pluralsight/candycoded/MainActivity.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -18,7 +17,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="Nexus_5X_Edited_API_24" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="Latest_Device_API_29" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -354,26 +353,26 @@
     </state>
     <state x="617" y="203" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1602512647894" />
     <state x="740" y="246" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1601068470370" />
-    <state width="1557" height="128" key="GridCell.Tab.0.bottom" timestamp="1602512120568">
-      <screen x="0" y="0" width="1600" height="860" />
+    <state width="1877" height="292" key="GridCell.Tab.0.bottom" timestamp="1602529842934">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1557" height="128" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1602512120568" />
-    <state width="1877" height="440" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1601226855970" />
-    <state width="1557" height="128" key="GridCell.Tab.0.center" timestamp="1602512120567">
-      <screen x="0" y="0" width="1600" height="860" />
+    <state width="1877" height="292" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1602529842934" />
+    <state width="1877" height="292" key="GridCell.Tab.0.center" timestamp="1602529842934">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1557" height="128" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1602512120567" />
-    <state width="1877" height="440" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1601226855970" />
-    <state width="1557" height="128" key="GridCell.Tab.0.left" timestamp="1602512120566">
-      <screen x="0" y="0" width="1600" height="860" />
+    <state width="1877" height="292" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1602529842934" />
+    <state width="1877" height="292" key="GridCell.Tab.0.left" timestamp="1602529842934">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1557" height="128" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1602512120566" />
-    <state width="1877" height="440" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1601226855970" />
-    <state width="1557" height="128" key="GridCell.Tab.0.right" timestamp="1602512120567">
-      <screen x="0" y="0" width="1600" height="860" />
+    <state width="1877" height="292" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1602529842934" />
+    <state width="1877" height="292" key="GridCell.Tab.0.right" timestamp="1602529842934">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1557" height="128" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1602512120567" />
-    <state width="1877" height="440" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1601226855970" />
+    <state width="1877" height="292" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1602529842934" />
     <state x="461" y="162" key="SettingsEditor" timestamp="1601138542450">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
