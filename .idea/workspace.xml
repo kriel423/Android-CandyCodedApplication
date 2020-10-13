@@ -9,7 +9,14 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0b7633b6-91c2-4d9c-80c2-5897a3f35d39" name="Default Changelist" comment="" />
+    <list default="true" id="0b7633b6-91c2-4d9c-80c2-5897a3f35d39" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/pluralsight/candycoded/DetailActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/pluralsight/candycoded/DetailActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/pluralsight/candycoded/InfoActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/pluralsight/candycoded/InfoActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/pluralsight/candycoded/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/pluralsight/candycoded/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_info.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_info.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,6 +44,11 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="UPDATE_TYPE" value="MERGE" />
   </component>
+  <component name="JavaAutoRunManager">
+    <enabled-run-configurations>
+      <run-configuration type="AndroidJUnit" name="candycoded in app" />
+    </enabled-run-configurations>
+  </component>
   <component name="ProjectConfigurationFiles">
     <option name="files">
       <list>
@@ -54,7 +66,7 @@
     <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2019-10-31T14:03:56.773Z" />
     <property name="Git.Branch.Popup.ShowAllRemotes" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="C:/Future/Programming/NoteKeeper/EnhancingAndroidExperience/android-enhancing-application-experience/08-creating-settings-screens-and-accessing-sharedpreferences/exercise-files/after/NoteKeeper" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Suggestions" />
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.2533512" />
@@ -69,7 +81,7 @@
     <option name="BUILD_VARIANTS_TAB" value="Flavors" />
     <option name="LAST_EDITED_BUILD_TYPE" value="release" />
   </component>
-  <component name="RunManager" selected="Android JUnit._1_StartTheStoreInformationActivity">
+  <component name="RunManager" selected="Android JUnit._2_StartTheGoogleMapsActivity">
     <configuration name="_1_StartTheStoreInformationActivity" type="AndroidJUnit" factoryName="Android JUnit" nameIsGenerated="true">
       <module name="app" />
       <useClassPathOnly />
@@ -295,7 +307,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602529965374</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Test in StartTheStoreInformationActivity working">
+      <created>1602530330072</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1602530330072</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -328,10 +347,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="92" y="92" width="1736" height="856" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1601146292028" />
-    <state x="1177" y="244" key="#com.intellij.ide.util.MemberChooser" timestamp="1601217040576">
+    <state x="1177" y="244" key="#com.intellij.ide.util.MemberChooser" timestamp="1602615664373">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1177" y="244" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1601217040576" />
+    <state x="1177" y="244" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1602615664373" />
     <state x="689" y="304" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1601068417361">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -344,40 +363,40 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="653" y="357" width="613" height="561" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040@0.0.1920.1040" timestamp="1601138944826" />
-    <state x="493" y="114" key="CommitChangelistDialog2" timestamp="1602530224460">
+    <state x="493" y="114" key="CommitChangelistDialog2" timestamp="1602530329305">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="411" y="49" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1602512175053" />
-    <state x="493" y="114" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1602530224460" />
+    <state x="493" y="114" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1602530329305" />
     <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1601139234210">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1601139234210" />
-    <state x="617" y="203" key="FileChooserDialogImpl" timestamp="1602512647894">
-      <screen x="0" y="0" width="1600" height="860" />
+    <state x="740" y="246" key="FileChooserDialogImpl" timestamp="1602614488263">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="617" y="203" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1602512647894" />
-    <state x="740" y="246" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1601068470370" />
-    <state width="1877" height="292" key="GridCell.Tab.0.bottom" timestamp="1602529842934">
+    <state x="740" y="246" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1602614488263" />
+    <state width="1877" height="184" key="GridCell.Tab.0.bottom" timestamp="1602619173622">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1557" height="128" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1602512120568" />
-    <state width="1877" height="292" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1602529842934" />
-    <state width="1877" height="292" key="GridCell.Tab.0.center" timestamp="1602529842934">
+    <state width="1877" height="184" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1602619173622" />
+    <state width="1877" height="184" key="GridCell.Tab.0.center" timestamp="1602619173622">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1557" height="128" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1602512120567" />
-    <state width="1877" height="292" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1602529842934" />
-    <state width="1877" height="292" key="GridCell.Tab.0.left" timestamp="1602529842934">
+    <state width="1877" height="184" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1602619173622" />
+    <state width="1877" height="184" key="GridCell.Tab.0.left" timestamp="1602619173621">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1557" height="128" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1602512120566" />
-    <state width="1877" height="292" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1602529842934" />
-    <state width="1877" height="292" key="GridCell.Tab.0.right" timestamp="1602529842934">
+    <state width="1877" height="184" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1602619173621" />
+    <state width="1877" height="184" key="GridCell.Tab.0.right" timestamp="1602619173622">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1557" height="128" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1602512120567" />
-    <state width="1877" height="292" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1602529842934" />
+    <state width="1877" height="184" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1602619173622" />
     <state x="461" y="162" key="SettingsEditor" timestamp="1601138542450">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

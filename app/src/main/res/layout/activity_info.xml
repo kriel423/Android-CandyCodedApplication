@@ -21,6 +21,7 @@
 
     <TextView
         android:id="@+id/text_view_address"
+        android:clickable="true"
         android:layout_width="0dp"
         android:layout_height="30dp"
         android:layout_marginLeft="16dp"
@@ -30,13 +31,18 @@
         android:text="618 E South St Orlando, FL"
         android:textColor="?android:attr/actionMenuTextColor"
         android:textSize="18sp"
+        android:onClick="createMapIntent"
+
+
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintLeft_toRightOf="@+id/image_view_map"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/image_view_candy_store" />
+        app:layout_constraintTop_toBottomOf="@+id/image_view_candy_store"
+        android:focusable="true" />
 
     <TextView
         android:id="@+id/text_view_phone"
+        android:clickable="true"
         android:layout_width="0dp"
         android:layout_height="30dp"
         android:layout_marginLeft="0dp"
@@ -46,9 +52,13 @@
         android:text="(012)345-6789"
         android:textColor="?android:attr/actionMenuTextColor"
         android:textSize="18sp"
+
+        android:onClick="createPhoneIntent"
+
         app:layout_constraintLeft_toLeftOf="@+id/text_view_address"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/image_view_map" />
+        app:layout_constraintTop_toBottomOf="@+id/image_view_map"
+        android:focusable="true" />
 
     <TextView
         android:id="@+id/text_view_hours"

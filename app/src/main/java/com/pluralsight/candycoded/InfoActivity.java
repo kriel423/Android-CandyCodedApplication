@@ -8,6 +8,7 @@ import android.os.Bundle;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.util.Log;
+import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -33,8 +34,6 @@ public class InfoActivity extends AppCompatActivity {
                 load(uri).
                 into(candyStoreImageView);
 
-
-
     }
 
 
@@ -43,30 +42,55 @@ public class InfoActivity extends AppCompatActivity {
     // TODO - Task 2 - Launch the Google Maps Activity
     // ***
 
-    public void createMapIntent(){
-        Intent mapIntent = new Intent(Intent.ACTION_VIEW);
-        mapIntent.setPackage("com.google.android.apps.maps");
-        if (mapIntent.resolveActivity(context.getPackageManager()) != null) {
-            context.startActivity(mapIntent);
-        } else {
-            //Show info
-            Log.i("", "could not access the map");
-        }
-
-    }
+    //*****************my thoughts************************//
+//    public void createMapIntent(){
+//        Intent mapIntent = new Intent(Intent.ACTION_VIEW);
+//        mapIntent.setPackage("com.google.android.apps.maps");
+//        if (mapIntent.resolveActivity(context.getPackageManager()) != null) {
+//            context.startActivity(mapIntent);
+//        } else {
+//            //Show info
+//            Log.i("", "could not access the map");
+//        }
+//
+//    }
 //    {
 //        maps = findViewById(R.id.text_view_address);
 //        Intent intent = new Intent(InfoActivity.this, )
 //    }
+    //*****************my thoughts************************//
+
+    public void createMapIntent(View view)
+    {
+        Uri uri = Uri.parse("geo:0,0?q=618 E South St Orlando, FL 32801");
+        Intent mapIntent = new Intent(Intent.ACTION_VIEW, uri);
+        mapIntent.setPackage("com.google.android.apps.maps");
+        if(mapIntent.resolveActivity(getPackageManager()) != null)
+        {
+            startActivity(mapIntent);
+        }
+    }
 
     // ***
     // TODO - Task 3 - Launch the Phone Activity
     // ***
 
+
+    //*****************my thoughts************************//
 //    public void createPhoneIntent(){
 //        phone = findViewById(R.id.text_view_phone);
 //        Intent callIntent = new Intent(Intent.ACTION_CALL);
 //        callIntent.setData(Uri.parse(phone.getText().toString()));
 //        startActivity(callIntent);
 //    };
+
+    //*****************my thoughts************************//
+
+    public void createPhoneIntent(View view)
+    {
+        Intent phoneIntent = new Intent(Intent.ACTION_DIAL);
+        phoneIntent.setData(Uri.parse("tel:0123456789"));
+        startActivity(phoneIntent);
+    }
+
 }
