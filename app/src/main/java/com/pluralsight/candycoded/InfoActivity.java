@@ -1,13 +1,10 @@
 package com.pluralsight.candycoded;
 
-import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
-import androidx.appcompat.app.AppCompatActivity;
-
-import android.util.Log;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
@@ -26,13 +23,28 @@ public class InfoActivity extends AppCompatActivity {
         setContentView(R.layout.activity_info);
 
         maps = findViewById(R.id.text_view_address);
+        phone = findViewById(R.id.text_view_phone);
         mMapLocation = Uri.parse(maps.getText().toString());
 
         Uri uri = Uri.parse("android.resource://com.codeschool.candycoded/" + R.drawable.store_front);
         ImageView candyStoreImageView = (ImageView)findViewById(R.id.image_view_candy_store);
-        Picasso.get().
+        Picasso.with(this).
                 load(uri).
                 into(candyStoreImageView);
+
+        maps.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view) {
+                createMapIntent(view);
+            }
+        });
+
+        phone.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view) {
+                createPhoneIntent(view);
+            }
+        });
 
     }
 
